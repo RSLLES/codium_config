@@ -1,0 +1,21 @@
+{
+	"if __name__ == __main__": {
+		"prefix": "ifmain",
+		"body": [
+			"def main():",
+			"\tpass\n",
+			"if __name__ == \"__main__\":",
+			"\tmain()"
+		],
+		"description": "Execute code if the file is executed directly"
+	},
+	"class template": {
+		"prefix": "classi",
+		"body": [
+			"class ${1:ClassName}($2):",
+			"\tdef __init__(self):",
+			"\t\tsuper().__init__()",
+		],
+		"description": "Class definition template"
+	}
+}

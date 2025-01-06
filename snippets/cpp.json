@@ -1,0 +1,28 @@
+{
+	"Add a header guard": {
+		"prefix": "#guard",
+		"body": [
+			"#ifndef INCLUDE${TM_DIRECTORY/.*[\\/](.*)/_${1:/upcase}/}${TM_FILENAME_BASE/(.*)/_${1:/upcase}/}${TM_FILENAME/.*\\.(.*)/_${1:/upcase}/}_",
+			"#define INCLUDE${TM_DIRECTORY/.*[\\/](.*)/_${1:/upcase}/}${TM_FILENAME_BASE/(.*)/_${1:/upcase}/}${TM_FILENAME/.*\\.(.*)/_${1:/upcase}/}_",
+			"",
+			"$0",
+			"",
+			"#endif  // INCLUDE${TM_DIRECTORY/.*[\\/](.*)/_${1:/upcase}/}${TM_FILENAME_BASE/(.*)/_${1:/upcase}/}${TM_FILENAME/.*\\.(.*)/_${1:/upcase}/}_"
+		],
+		"description": "header guard. format :\n\tINCLUDE_<dirname>_<filename>_<extension>_"
+	},
+	"Log a variable with its line number": {
+		"prefix": "log",
+		"body": [
+			"std::cout << \"[${TM_LINE_NUMBER}| ${RELATIVE_FILEPATH}] ${1:variable}: \" << ${1:variable} << std::endl;"
+		],
+		"description": "Log a variable with its name and line number"
+	},
+	"Add a trace": {
+		"prefix": "trace",
+		"body": [
+			"std::cout << \"[${TM_LINE_NUMBER}| ${RELATIVE_FILEPATH}]\" << std::endl;"
+		],
+		"description": "Add a trace"
+	}
+}
