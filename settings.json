@@ -1,7 +1,6 @@
 {
-  "local-sync.autobackup": false,
-  "workbench.colorTheme": "Kanagawa Paper",
   "editor.formatOnSave": true,
-  "git.confirmSync": false,
+  "workbench.colorTheme": "Kanagawa Wave",
+  "local-sync.autobackup": false,
   "git.autofetch": true
 }

@@ -7,6 +7,9 @@
   "mechatroner.rainbow-csv",
   "ms-python.debugpy",
   "ms-python.python",
+  "ms-toolsai.jupyter",
+  "ms-toolsai.jupyter-keymap",
+  "ms-toolsai.jupyter-renderers",
   "rioj7.command-variable",
   "simonho.kanagawa-paper"
 ]
