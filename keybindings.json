@@ -1,17 +1,16 @@
-// Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+f9",
-        "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
-    }
+  {
+    "command": "editor.action.deleteLines",
+    "key": "ctrl+d",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.deleteLines",
+    "key": "ctrl+shift+k",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "command": "workbench.debug.viewlet.action.removeAllBreakpoints",
+    "key": "ctrl+shift+f9"
+  }
 ]
