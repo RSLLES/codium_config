@@ -3,6 +3,7 @@
 # Fill with vscode extension URLs
 links=(
     "https://marketplace.visualstudio.com/items?itemName=SimonHo.kanagawa-paper"
+    "https://marketplace.visualstudio.com/items?itemName=huytd.nord-light"
 )
 
 extract_author() {
