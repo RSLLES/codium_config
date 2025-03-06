@@ -10,7 +10,51 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
+    "command": "editor.action.copyLinesDownAction",
+    "key": "shift+alt+down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.copyLinesDownAction",
+    "key": "ctrl+shift+alt+down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "editor.action.copyLinesUpAction",
+    "key": "shift+alt+up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.copyLinesUpAction",
+    "key": "ctrl+shift+alt+up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "editor.action.insertCursorBelow",
+    "key": "ctrl+alt+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-editor.action.insertCursorBelow",
+    "key": "shift+alt+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.insertCursorAbove",
+    "key": "ctrl+alt+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-editor.action.insertCursorAbove",
+    "key": "shift+alt+up",
+    "when": "editorTextFocus"
+  },
+  {
     "command": "workbench.debug.viewlet.action.removeAllBreakpoints",
     "key": "ctrl+shift+f9"
+  },
+  {
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "key": "ctrl+k shift+e"
   }
 ]

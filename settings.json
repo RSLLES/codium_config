@@ -1,6 +1,12 @@
 {
+  "debug.openDebug": "neverOpen",
+  "editor.fontFamily": "SF Mono",
   "editor.formatOnSave": true,
   "git.autofetch": true,
+  "git.confirmSync": false,
+  "latex-workshop.formatting.latex": "latexindent",
   "local-sync.autobackup": false,
-  "workbench.colorTheme": "Kanagawa Wave"
+  "remote.autoForwardPortsSource": "hybrid",
+  "update.mode": "manual",
+  "workbench.colorTheme": "Atom One Light"
 }

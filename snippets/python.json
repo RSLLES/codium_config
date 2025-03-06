@@ -17,5 +17,21 @@
 			"\t\tsuper().__init__()",
 		],
 		"description": "Class definition template"
+	},
+	"PyTorch Module Template": {
+		"prefix": "moduletorch",
+		"body": [
+			"import torch",
+			"from torch import nn, Tensor",
+			"",
+			"",
+			"class ${1:MyModel}(nn.Module):",
+			"    def __init__(self):",
+			"        super().__init__()",
+			"",
+			"    def forward(self, x: Tensor):",
+			"        pass"
+		],
+		"description": "Define a custom torch.nn.Module"
 	}
 }
