@@ -56,5 +56,21 @@
   {
     "command": "workbench.files.action.collapseExplorerFolders",
     "key": "ctrl+k shift+e"
+  },
+  {
+    "command": "workbench.action.debug.callStackUp",
+    "key": "ctrl+' ctrl+up"
+  },
+  {
+    "command": "workbench.action.debug.callStackDown",
+    "key": "ctrl+' ctrl+down"
+  },
+  {
+    "command": "workbench.action.debug.callStackTop",
+    "key": "ctrl+' ctrl+pageup"
+  },
+  {
+    "command": "workbench.action.debug.callStackBottom",
+    "key": "ctrl+' ctrl+pagedown"
   }
 ]
