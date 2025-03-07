@@ -7,6 +7,6 @@
   "latex-workshop.formatting.latex": "latexindent",
   "local-sync.autobackup": false,
   "remote.autoForwardPortsSource": "hybrid",
-  "update.mode": "manual",
-  "workbench.colorTheme": "Atom One Light"
+  "update.mode": "none",
+  "workbench.colorTheme": "Kanagawa Wave"
 }
