@@ -8,5 +8,5 @@
   "local-sync.autobackup": false,
   "remote.autoForwardPortsSource": "hybrid",
   "update.mode": "none",
-  "workbench.colorTheme": "Kanagawa Wave"
+  "workbench.colorTheme": "Everforest Light"
 }
