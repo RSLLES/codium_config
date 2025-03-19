@@ -72,5 +72,17 @@
   {
     "command": "workbench.action.debug.callStackBottom",
     "key": "ctrl+' ctrl+pagedown"
+  },
+  {
+    "command": "-workbench.action.openGlobalKeybindings",
+    "key": "ctrl+k ctrl+s"
+  },
+  {
+    "command": "editor.action.sortLinesAscending",
+    "key": "ctrl+k ctrl+s"
+  },
+  {
+    "command": "editor.action.sortLinesDescending",
+    "key": "ctrl+k ctrl+shift+s"
   }
 ]
