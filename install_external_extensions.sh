@@ -5,6 +5,7 @@ links=(
     "https://marketplace.visualstudio.com/items?itemName=SimonHo.kanagawa-paper"
     "https://marketplace.visualstudio.com/items?itemName=huytd.nord-light"
     "https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest"
+    "https://marketplace.visualstudio.com/items?itemName=loilo.snazzy-light"
 )
 
 extract_author() {

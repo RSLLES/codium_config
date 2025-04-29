@@ -84,5 +84,15 @@
   {
     "command": "editor.action.sortLinesDescending",
     "key": "ctrl+k ctrl+shift+s"
+  },
+  {
+    "command": "workbench.action.toggleZenMode",
+    "key": "ctrl+enter",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "command": "-workbench.action.toggleZenMode",
+    "key": "ctrl+k z",
+    "when": "!isAuxiliaryWindowFocusedContext"
   }
 ]

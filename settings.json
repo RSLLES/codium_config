@@ -6,7 +6,9 @@
   "git.confirmSync": false,
   "latex-workshop.formatting.latex": "latexindent",
   "local-sync.autobackup": false,
+  "redhat.telemetry.enabled": false,
   "remote.autoForwardPortsSource": "hybrid",
+  "ruff.nativeServer": "on",
   "update.mode": "none",
-  "workbench.colorTheme": "Atom One Light"
+  "workbench.colorTheme": "Kanagawa Wave"
 }
