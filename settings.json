@@ -1,7 +1,9 @@
 {
+  "basedpyright.analysis.typeCheckingMode": "off",
   "debug.openDebug": "neverOpen",
   "editor.fontFamily": "SF Mono",
   "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "off",
   "git.autofetch": true,
   "git.confirmSync": false,
   "latex-workshop.formatting.latex": "latexindent",

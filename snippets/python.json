@@ -22,7 +22,7 @@
 		"prefix": "moduletorch",
 		"body": [
 			"import torch",
-			"from torch import nn, Tensor",
+			"from torch import Tensor, nn",
 			"",
 			"",
 			"class ${1:MyModel}(nn.Module):",
