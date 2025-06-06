@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# Find editor
+editors=(
+  codium
+  code-oss
+  code
+)
+
+for cmd in "${editors[@]}"; do
+  if command -v "$cmd" >/dev/null 2>&1; then
+    export EDITOR="$cmd"
+    echo "Using editor: $EDITOR"
+    break
+  fi
+done
+
+if [ -z "$EDITOR" ]; then
+  echo "Error: No suitable editor found." >&2
+  exit 1
+fi
+
+
 # Fill with vscode extension URLs
 links=(
     "https://marketplace.visualstudio.com/items?itemName=SimonHo.kanagawa-paper"
@@ -35,8 +56,8 @@ download_and_install() {
     local url="https://marketplace.visualstudio.com/_apis/public/gallery/publishers/${author}/vsextensions/${extension_name}/${version}/vspackage"
     
     echo "Downloading and installing ${filename} from '${url}'"
-    curl "$url" --compressed -o "$filename"
-    codium --install-extension "$filename"
+    curl "$url" -# --compressed -o "$filename"
+    ${EDITOR} --install-extension "$filename"
     rm "$filename"
 }
 
