@@ -87,7 +87,7 @@
   },
   {
     "command": "workbench.action.toggleZenMode",
-    "key": "ctrl+enter",
+    "key": "ctrl+k z",
     "when": "!isAuxiliaryWindowFocusedContext"
   },
   {

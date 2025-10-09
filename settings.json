@@ -1,4 +1,13 @@
 {
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "basedpyright.analysis.typeCheckingMode": "off",
   "debug.openDebug": "neverOpen",
   "editor.fontFamily": "SF Mono",
@@ -7,10 +16,75 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.latex.recipe.default": "lastUsed",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "latexmk (latexmkrc)",
+      "tools": [
+        "latexmk_rconly"
+      ]
+    },
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk"
+      ]
+    },
+    {
+      "name": "latexmk (xelatex)",
+      "tools": [
+        "xelatexmk"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex * 2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "Compile Rnw files",
+      "tools": [
+        "rnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "Compile Jnw files",
+      "tools": [
+        "jnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "Compile Pnw files",
+      "tools": [
+        "pnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "tectonic",
+      "tools": [
+        "tectonic"
+      ]
+    }
+  ],
   "local-sync.autobackup": false,
   "redhat.telemetry.enabled": false,
   "remote.autoForwardPortsSource": "hybrid",
   "ruff.nativeServer": "on",
+  "shfmt.executablePath": "/home/rseaille/go/bin/shfmt",
+  "terminal.integrated.stickyScroll.enabled": false,
   "update.mode": "none",
-  "workbench.colorTheme": "Kanagawa Wave"
+  "workbench.colorTheme": "Everforest Dark"
 }
