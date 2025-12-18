@@ -2,6 +2,6 @@ I use the "local-sync" extension, which simply imports and exports Codium settin
 Everything is linked to a Git repository that I update across my different machines.
 
 For external extensions (installed from another marketplace), use the `./install_external_extensions.sh` script.  
-To update the Windows context menu, use `./contextual_menus.reg`.
 
-Good snippets can be found here: https://github.com/rafamadriz/friendly-snippets
+Good snippets are available here: https://github.com/rafamadriz/friendly-snippets
+
