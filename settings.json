@@ -9,6 +9,14 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "basedpyright.analysis.typeCheckingMode": "off",
+  "cSpell.userWords": [
+    "coeffs",
+    "keepdim",
+    "meshgrid",
+    "randn",
+    "softplus",
+    "unet"
+  ],
   "debug.openDebug": "neverOpen",
   "editor.fontFamily": "SF Mono",
   "editor.formatOnSave": true,
@@ -80,11 +88,15 @@
     }
   ],
   "local-sync.autobackup": false,
+  "python.languageServer": "None",
   "redhat.telemetry.enabled": false,
   "remote.autoForwardPortsSource": "hybrid",
   "ruff.nativeServer": "on",
   "shfmt.executablePath": "/home/rseaille/go/bin/shfmt",
   "terminal.integrated.stickyScroll.enabled": false,
   "update.mode": "none",
-  "workbench.colorTheme": "Everforest Dark"
+  "workbench.colorTheme": "Kanagawa Wave",
+  "workbench.editorAssociations": {
+    "*.svg": "imagePreview.previewEditor"
+  }
 }
